@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    color: #f6f0f2;
+}
+
+.portfolio-ancestor {
+    display: flex;
+    background-color: black;
+    color: #f6f0f2;
+}
+
+.profile-img img {
+    border-radius: 30px;
+}
+
+.profile-head {
+    width: 20%;
+    padding: 20px 80px;
+    margin-top: 40px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 60px;
+    margin: 20px 0px;
+
+}
+
+.profile-head button {
+    font-family: "Inter", sans-serif;
+    width: 80%;
+    background: none;
+    border: 1px solid #333333;
+    margin: 20px 0px;
+    margin-left: 30px;
+    padding: 15px 40px;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+.profile-head button:hover {
+    color: #f6f0f2;
+    background-color: #308ff6;
+}
+
+
+/* Introduction styling  */
+
+.intro-top {
+    margin: 45px 0px;
+}
+
+.intro-top span {
+    color: #308ff6;
+    font-family: "Inter", sans-serif;
+}
+
+.intro-top h1 {
+    color: #f6f0f2;
+    font-family: "Inter", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    margin: 20px 0px;
+}
+
+.intro-top p {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+
+}
+
+/* .Experience section styling  */
+
+.experience-info-top {
+    display: flex;
+    align-items: center;
+    margin: 150px 0px;
+}
+
+.experience-info {
+    text-align: center;
+    margin: 0px 150px;
+    margin-left: 0px;
+
+}
+
+.experience-info h2 {
+    color: #308ff6;
+    font-family: "Inter", sans-serif;
+    font-size: 64px;
+    font-weight: 300;
+
+}
+
+.experience-info span {
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+/* About Styling  */
+.about-top {
+    margin: 100px 0px;
+}
+
+.about-top span {
+    color: #308ff6;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+
+}
+
+.about-top h3 {
+    color: #f6f0f2;
+    font-family: "Inter", sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    margin: 20px 0px;
+}
+
+.about-top p {
+    color: #f6f0f2;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+
+}
+
+
+/* Career styling  */
+.career-top {
+    margin: 100px 0px;
+}
+
+.career {
+    color: #308ff6;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.career-top h2 {
+    color: #f6f0f2;
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 30px 0px;
+
+}
+
+.career-detail {
+    margin: 20px 0px;
+}
+
+.career-detail span {
+    color: #f6f0f2;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.career-detail h4 {
+    color: #f6f0f2;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px 0px;
+
+}
+
+/* Services Styling  */
+
+.services-top {
+    margin: 80px 0px;
+}
+
+.services-top span {
+    color: #308ff6;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.services-top h2 {
+    color: #f6f0f2;
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 20px 0px;
+
+}
+
+.serv-items-top {
+    display: flex;
+
+}
+
+.serv-items-1 {
+    color: #308ff6;
+    width: fit-content;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 15px 30px;
+    text-align: center;
+    margin: 0px 20px;
+}
+
+.serv-items-1 h4 {
+    color: #f6f0f2;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.serv-items-1 span {
+    color: #f6f0f2;
+    font-family: "Inter", sans-serif;
+    font-size: 9px;
+    font-weight: 400;
+}
+
+.serv-items-2 {
+    width: fit-content;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 15px 40px;
+    text-align: center;
+    margin: 0px 20px;
+}
+
+.serv-items-2 h4 {
+    color: #f6f0f2;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.serv-items-2 span {
+    color: #f6f0f2;
+    font-family: "Inter", sans-serif;
+    font-size: 9px;
+    font-weight: 400;
+}
+
+.serv-items-3 {
+    width: fit-content;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 15px 40px;
+    text-align: center;
+    margin: 0px 30px;
+    margin: 0px 20px;
+}
+
+.serv-items-3 h4 {
+    color: #f6f0f2;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.serv-items-3 span {
+    color: #f6f0f2;
+    font-family: "Inter", sans-serif;
+    font-size: 9px;
+    font-weight: 400;
+}
+
+/* Skills Styling  */
+
+.skills-top span {
+    color: #308ff6;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.skills-top h2 {
+    color: #f6f0f2;
+    font-family: "Inter", sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    margin: 20px 0px;
+}
+
+.logos img {
+    margin: 15px 20px;
+}
+
+
+/* Portfolio Styling  */
+
+.projects img{
+    border-radius: 20px;}
+
+.top {
+    margin: 100px 0px;
+}
+
+.top span {
+    color: #308ff6;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.top h2 {
+    color: #f6f0f2;
+    font-family: "Inter", sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    margin: 20px 0px;
+}
+
+
+/* client Styling  */
+.client-top {
+    width: fit-content;
+    border: 1px solid #d1d1d1;
+    padding: 40px 70px;
+    border-radius: 40px;
+
+}
+
+.client {
+    display: flex;
+    align-items: center;
+}
+
+.client img {
+    margin-left: 30px;
+}
+
+.client h5 {
+    color: #f6f0f2;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 10px 25px;
+}
+
+.client h5 span {
+    color: #f6f0f2;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+
+}
+
+
+
+.client-top p {
+    color: #f6f0f2;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 30px;
+}
+
+/* Brands Styling  */
+
+.brands-logos {
+    display: flex;
+    align-items: center;
+}
+
+.brands-logos img {
+    margin: 60px;
+    margin-left: 0px;
+}
+
+
+/* Contact Styling  */
+.contact {
+    color: #308ff6;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 80px 0px;
+}
+
+.contact-option {
+    margin: 30px 0px;
+}
+
+.contact-option label {
+    color: #f6f0f2;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.contact-option input {
+    background-color: #000;
+    border: none;
+    border-bottom: 1px solid #c7c2c3;
+    padding: 10px 250px;
+    padding-left: 0px;
+
+}
+
+.contact-option input:focus {
+    outline: none;
+}
+
+.message {
+    background-color: #000;
+    border: none;
+    border-bottom: 1px solid #c7c2c3;
+    padding: 10px 250px;
+    padding-left: 0px;
+}
+
+
+.hire-me-btn {
+    font-family: "Inter", sans-serif;
+    background: none;
+    font-size: 17px;
+    font-weight: 400;
+    border: 1px solid #e7dddd;
+    margin: 20px 0px;
+    padding: 18px 70px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.hire-me-btn:hover {
+    color: #f6f0f2;
+    background-color: #308ff6;
+}
